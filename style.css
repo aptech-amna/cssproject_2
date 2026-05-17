@@ -79,23 +79,29 @@ body {
     display: flex;
     height: 50%;
     width: 100%;
-    background-color: rgb(255, 0, 0);
 }
 
 #leftbottom{
     height: 50%;
     width: 100%;
-    background-color:aquamarine;
+    background-image: url(./abc.jpg);
+    background-size: cover;
+    background-position: center;
+
 }
 
 #lefttopr{
     width: 55%;
     height: 100%;
-    background-color: rgb(193, 26, 196);
+    background-image: url(https://images.unsplash.com/photo-1648940683136-085f3d4a181b?q=80&w=845&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
 }
 
 #lefttopleft{
     width: 45%;
     height: 100%;
-    background-color:rgb(123, 237, 100);
+    background-image: url(https://images.unsplash.com/photo-1591892204579-530edbd4724d?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
 }
