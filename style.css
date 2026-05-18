@@ -1,0 +1,121 @@
+*{
+   margin:0;
+   padding:0;
+   box-sizing:border-box;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+html,
+body {
+   height:100%;
+   width:100%;
+}
+#main{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    
+}
+#nav{
+    padding: 20px 30px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+#nav a{
+    margin-right: 20px;
+        text-decoration: none;
+        color: #000;
+        font-weight: 500;
+        font-size: 14px;
+
+}
+
+#navr{
+    display: flex;
+    align-items: center;
+}
+
+ #textcenter{
+    /* background-color: royalblue; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 60%;
+    transform: translate(-50%, -50%);
+}
+#textcenter h1{
+    font-size: 90px;
+    font-weight: 900;
+}
+#textcenter p{
+    opacity: .7;
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 6px;
+    margin-bottom: 20px;
+}
+#textcenter a{
+    text-decoration: none;
+    color: #000;
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+    font-size: 13px;
+    font-weight: 600;
+    opacity: .6;
+}
+#right{
+    height: 100%;
+    width: 40%;
+     position: relative;
+}
+#left{
+    height: 100%;
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+   
+}
+#lefttop{
+    display: flex;
+    height: 50%;
+    width: 100%;
+}
+
+#leftbottom{
+    height: 50%;
+    width: 100%;
+    background-image: url(./abc.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#lefttopr{
+    width: 55%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1648940683136-085f3d4a181b?q=80&w=845&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+
+#lefttopleft{
+    width: 45%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1591892204579-530edbd4724d?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+
+
+@media(max-width:500px){
+    #main{
+        flex-direction: column;
+    }
+
+    #main #right{
+        width: 100%;
+    }
+    #main #left{
+        width: 100%;
+    }
+}
